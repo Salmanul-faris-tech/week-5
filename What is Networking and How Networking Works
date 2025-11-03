@@ -1,0 +1,106 @@
+What is Networking and How Networking Works
+
+a. Define computer networking.
+
+Answer: Computer Networking is the practice of connecting multiple computers or devices (like PCs, servers, printers, mobile phones, etc.) so that they can communicate, share data, and access resources (like files, internet, or applications).
+
+b. Describe how computers communicate using protocols.
+
+Answer: Computers follow a set of rules called protocols to send and receive data correctly.
+
+💡 Example:
+
+If two people speak different languages, they can’t communicate. Similarly, two computers must use the same protocols to exchange data successfully.
+
+Main Communication Model – OSI Model
+
+The OSI (Open Systems Interconnection) model defines 7 layers that show how data moves from one device to another.
+| Layer | Name         | Function                                 |
+| ----- | ------------ | ---------------------------------------- |
+| 7     | Application  | User interface (e.g., web browser)       |
+| 6     | Presentation | Encryption, compression                  |
+| 5     | Session      | Manages sessions between computers       |
+| 4     | Transport    | Ensures reliable data transfer (TCP/UDP) |
+| 3     | Network      | IP addressing, routing                   |
+| 2     | Data Link    | MAC addressing, switching                |
+| 1     | Physical     | Transmission through cables, Wi-Fi, etc. |
+
+Common Networking Protocols
+| Protocol           | Purpose                                                 |
+| ------------------ | ------------------------------------------------------- |
+| **HTTP/HTTPS**     | Web browsing                                            |
+| **FTP**            | File transfer                                           |
+| **SMTP/POP3/IMAP** | Email communication                                     |
+| **TCP/IP**         | Foundation of all internet communication                |
+| **DNS**            | Converts domain names (like google.com) to IP addresses |
+| **DHCP**           | Assigns IP addresses automatically                      |
+
+c. Explain the role of routers, switches, and IP addresses.
+
+Answer: Router
+
+A router connects multiple networks together (e.g., your home network and the internet).
+
+It decides where data packets should go using IP addresses.
+
+Example:
+When you visit www.youtube.com, your router directs your request to YouTube’s servers over the internet and brings the response back to your device.
+
+Switch
+
+A switch connects devices within the same network (like computers in an office or school).
+
+It uses MAC addresses to forward data only to the correct device, improving efficiency.
+
+Example:
+In an office LAN, a switch connects all PCs, printers, and servers internally.
+
+IP Address (Internet Protocol Address)
+
+Every device in a network is assigned an IP address, which acts like a digital home address.
+
+It ensures data packets reach the correct destination.
+
+| Type           | Description                | Example                        |
+| -------------- | -------------------------- | ------------------------------ |
+| **IPv4**       | 32-bit address             | 192.168.1.10                   |
+| **IPv6**       | 128-bit address (newer)    | 2001:0db8:85a3::8a2e:0370:7334 |
+| **Private IP** | Used inside local networks | 192.168.x.x, 10.x.x.x          |
+| **Public IP**  | Used on the internet       | Assigned by ISP                |
+
+d. Learn about basic security measures in networking (firewalls, VPNs)
+
+Answer: Firewall
+
+A firewall acts as a security guard between your network and the internet.
+
+It filters incoming and outgoing traffic based on security rules.
+
+Example:
+If a hacker tries to access your system from the internet, the firewall blocks unauthorized connections.
+
+Types:
+
+Hardware firewalls (built into routers)
+
+Software firewalls (Windows Defender Firewall, etc.)
+
+VPN (Virtual Private Network)
+
+A VPN encrypts your internet traffic and hides your IP address.
+
+It creates a secure tunnel between your device and the destination server.
+
+Example:
+When you use a VPN while connected to public Wi-Fi, your data remains encrypted, protecting you from hackers.
+
+Antivirus & Encryption
+
+Antivirus detects and removes malware.
+
+Encryption converts readable data into unreadable form to prevent unauthorized access.
+
+Network Monitoring Tools
+
+IT teams use tools like Wireshark, Nagios, or SolarWinds to monitor network performance and detect threats.
+
