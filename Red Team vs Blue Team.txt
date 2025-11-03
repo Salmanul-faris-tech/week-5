@@ -1,0 +1,90 @@
+Red Team vs Blue Team
+
+a. Define the Red Team and its role.
+
+Answer: The Red Team is a group of cybersecurity professionals who act like ethical hackers or attackers.
+Their goal is to simulate real-world cyberattacks to find weaknesses in an organization’s systems, networks, and defenses before real hackers do.
+
+Role:
+
+They think and act like cybercriminals — trying to break into the system using any method possible.
+
+Their main purpose is to test the security strength of the organization.
+
+They identify vulnerabilities, loopholes, and security gaps that can be exploited.
+
+In short:
+
+The Red Team = Attackers (but ethical ones)
+
+Example:
+
+They might try to:
+
+Break into servers using phishing emails.
+
+Exploit unpatched software.
+
+Bypass firewalls or authentication systems.
+
+Gain unauthorized access to sensitive data.
+
+b. Define the Blue Team and its role.
+
+Answer: The Blue Team is the defensive side of cybersecurity.
+They are responsible for protecting, detecting, and responding to cyber threats.
+
+Role:
+
+Their job is to monitor the system, analyze network traffic, and respond to any suspicious activity.
+
+They build strong security systems using firewalls, intrusion detection systems, and antivirus software.
+
+They make sure the organization is secure, resilient, and prepared for any attacks — including the ones simulated by the Red Team.
+
+In short:
+
+The Blue Team = Defenders (protectors of the system)
+
+Example:
+
+They might:
+
+Detect a phishing attempt.
+
+Respond to a malware attack.
+
+Analyze logs and alerts to find intrusions.
+
+Strengthen the network’s security configurations.
+
+c. Compare the tasks and goals of each team.
+
+Answer: 
+| Team         | Role      | Goal            | Example                           |
+| ------------ | --------- | --------------- | --------------------------------- |
+| 🔴 Red Team  | Offensive | Find weaknesses | Simulate phishing attack          |
+| 🔵 Blue Team | Defensive | Protect system  | Detect and block phishing attempt |
+
+d. Provide examples of activities they perform
+
+Answer: 
+🔴 Red Team activities:
+
+Penetration Testing: Attempt to exploit system vulnerabilities.
+
+Social Engineering: Send fake phishing emails to test employee awareness.
+
+Network Exploitation: Try to break into networks or databases.
+
+Privilege Escalation: Attempt to gain admin-level access.
+
+🔵 Blue Team activities:
+
+Monitoring & Detection: Use SIEM tools (like Splunk) to track unusual activities.
+
+Incident Response: React to and investigate alerts.
+
+Patch Management: Fix and update software vulnerabilities.
+
+Threat Analysis: Study the attacker’s methods and strengthen defenses.
