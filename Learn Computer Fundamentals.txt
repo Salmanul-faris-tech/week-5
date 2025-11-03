@@ -1,0 +1,135 @@
+Learn Computer Fundamentals
+
+a. Define basic computer components: CPU, memory, storage.
+
+Answer: A computer is made up of three main internal components that work together just like the human body and brain.
+
+1. CPU (Central Processing Unit)
+
+The CPU is also called the Processor.
+
+It’s the brain of the computer — every instruction you give goes through it.
+
+It executes programs, performs calculations, and controls other components.
+
+Main parts of CPU:
+
+ALU (Arithmetic Logic Unit) – performs math and logical operations
+
+CU (Control Unit) – directs how data moves inside the system
+
+Registers – small, super-fast memory spaces inside the CPU
+
+📘 Example:
+When you click “Play” on a video:
+
+The CPU decodes the video data,
+
+Directs it to memory, and
+
+Sends output to the screen and speakers.
+
+2. Memory (RAM)
+
+Stands for Random Access Memory.
+
+It’s temporary storage — it holds the data and programs that the CPU is currently using.
+
+When you turn off the computer, everything in RAM is lost.
+
+🧩 Example:
+When editing a Word file, the text you type is stored in RAM until you save it.
+Once saved, it moves to Storage.
+
+3. Storage
+
+This is permanent data storage, even when the computer is turned off.
+
+Used for saving OS files, applications, music, videos, etc.
+
+Types of Storage:
+
+HDD (Hard Disk Drive): Mechanical, slower, cheaper
+
+SSD (Solid State Drive): Faster, uses flash memory, no moving parts
+
+External Storage: Pen drives, CDs, external hard disks
+
+📘 Example:
+When you install software or save a movie, it’s stored in the storage drive (HDD or SSD).
+
+b. Understand what software and hardware are.
+
+Computers have two main parts:
+
+Hardware – Physical components you can touch
+
+Software – The invisible instructions that make hardware work
+
+Hardware
+
+Definition: Physical, tangible parts of a computer.
+
+Examples: Keyboard, Monitor, CPU, Mouse, Hard Disk, Motherboard.
+
+🧠 Analogy: Hardware is your body — it performs actions but needs a brain (software) to guide it.
+
+Software
+
+Definition: A set of programs and instructions that tell the hardware what to do.
+
+You can’t touch software, but you can use it.
+
+Types of Software:
+
+System Software: Controls the computer (e.g. Windows, Linux, macOS)
+
+Application Software: Performs specific tasks (e.g. Word, Chrome, Photoshop)
+
+Utility Software: Maintenance tools (e.g. antivirus, file compression)
+
+🧠 Analogy: Software is your brain and thoughts — it tells the body what to do.
+
+c. Explain binary data and how computers store information
+
+Answer:  Binary System (Base-2)
+
+Computers do not understand English or numbers like we do.
+They understand only two signals:
+
+1 → ON (electric current present)
+
+0 → OFF (no current)
+
+These two digits form the binary system.
+
+🧩 Example:
+
+Decimal 2 = Binary 10
+
+Decimal 5 = Binary 101
+
+Decimal 10 = Binary 1010
+
+Bits and Bytes
+
+1 bit = smallest unit of data (can be 0 or 1)
+
+8 bits = 1 byte
+
+1 byte can represent a single character (like “A” or “B”)
+
+How Computers Store Information
+
+All data — text, images, videos, music — are converted into binary before storage.
+
+Example:
+
+Image → converted into binary pixel values
+
+Music → converted into binary sound waves
+
+Text → converted using ASCII or Unicode codes
+
+Then, the data is stored on your hard drive or SSD as a long series of 0s and 1s.
+
