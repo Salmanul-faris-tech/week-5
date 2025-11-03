@@ -1,0 +1,125 @@
+Basics of Information Security
+
+a. Learn the CIA triad: Confidentiality, Integrity, Availability.
+
+Answer: Component
+
+C - Confidentiality
+
+Meaning
+
+Keeping data private and accessible only to authorized people.
+
+Example
+
+Password protection, encryption, or two-factor authentication.
+
+Real-life Scenario
+
+A hospital encrypts patient records so only doctors and nurses can view them.
+
+Component
+
+I - Integrity
+
+Meaning
+
+Making sure information is accurate and not changed by unauthorized users.
+
+Example
+
+Hashing, checksums, digital signatures.
+
+Real-life Scenario
+
+A hacker tries to change your bank balance from ₹500 to ₹50,000 — integrity mechanisms detect and block the change.
+
+Component
+
+A - Availability
+
+Meaning
+
+Ensuring that authorized users can access data whenever they need.
+
+Example
+
+Backup servers, firewalls, and protection against DoS attacks.
+
+Real-life Scenario
+
+During an online sale, Amazon’s servers must stay up 24/7 so customers can buy products.
+
+b. Explain what threats, vulnerabilities, and exploits are.
+
+Answer: 
+Threat
+
+Anything that can harm data or systems.
+
+Example
+
+Hackers, malware, natural disasters, or careless employees.
+
+Scenario
+
+A hacker wants to steal customer credit card data from an e-commerce site.
+
+Vulnerability
+
+A weakness or flaw that a threat can exploit.
+
+Example
+
+Unpatched software, weak passwords, open network ports.
+
+Scenario
+
+The e-commerce site hasn’t updated its payment module — that’s a vulnerability.
+
+Exploit
+
+The method used by an attacker to take advantage of the vulnerability.
+
+Example
+
+Code injection, phishing, or brute force attacks.
+
+Scenario
+
+The hacker uses SQL Injection to steal data through the outdated module.
+
+c. Research common security threats: malware, phishing, DoS attacks
+
+Answer: 🦠 Malware (Malicious Software)
+
+Meaning: Software designed to harm a computer or steal data.
+
+Types: Virus, Worm, Trojan, Ransomware, Spyware.
+
+Example: Ransomware locks your files and demands money.
+
+Scenario: You download a “free movie player” app, but it installs ransomware. Your laptop screen shows: “Pay ₹10,000 to unlock your files.”
+
+🛡️ Protection: Use antivirus software, don’t download from unknown sources, keep software updated.
+
+🎣 Phishing
+
+Meaning: Tricking someone into revealing sensitive data (like passwords or credit card details).
+
+Example: A fake email from “your bank” asks you to log in.
+
+Scenario: You get an email: “Your bank account is locked. Click here to verify.” The link leads to a fake site that steals your login credentials.
+
+🛡️ Protection: Check sender addresses carefully, don’t click unknown links, use multi-factor authentication (MFA).
+
+🌐 Denial of Service (DoS) Attack
+
+Meaning: Flooding a server or network with too much traffic so legitimate users can’t access it.
+
+Example: Attackers send millions of requests to a company website, making it crash.
+
+Scenario: During an online exam, the university’s server is attacked by a DoS attack — students can’t access the portal.
+
+🛡️ Protection: Use firewalls, load balancers, and rate-limiting tools to handle massive traffic spikes.
+
