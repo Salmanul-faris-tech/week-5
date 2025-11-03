@@ -1,0 +1,158 @@
+Linux Basics
+
+a. Explain what Linux is and why it is used in cybersecurity.
+
+Answer: Linux is an open-source operating system similar to Windows or macOS, but it’s free, customizable, and highly secure. It runs everything from servers and mobile phones (Android) to embedded systems.
+
+Kernel → the core of Linux, managing hardware and system resources.
+
+Distributions (Distros) → versions of Linux like:
+
+Ubuntu (user-friendly)
+
+Kali Linux (used in cybersecurity)
+
+CentOS, Debian, Red Hat (for servers)
+
+Why Linux is Used in Cybersecurity
+
+Open Source: You can inspect and modify the system — transparency helps identify vulnerabilities.
+
+Powerful Command Line (CLI): Tools like nmap, tcpdump, and metasploit work directly in Linux.
+
+Security Control: Fine-grained control over permissions and users.
+
+Server Dominance: Most web servers and cloud systems run Linux.
+
+Tools Availability:
+
+Kali Linux includes hacking and penetration testing tools.
+
+Parrot OS, BlackArch, etc., are also built for ethical hackers.
+
+🧩 Scenario Example:
+A penetration tester uses Kali Linux to scan a company’s network with nmap for open ports, detect vulnerable servers, and report possible exploits — something much harder to do efficiently on Windows.
+
+b. Learn basic Linux commands: navigation and file management.
+
+Answer: 
+🗂️ Navigation Commands
+| Command | Description             | Example                                            |
+| ------- | ----------------------- | -------------------------------------------------- |
+| `pwd`   | Print working directory | Shows your current directory → `/home/salman`      |
+| `ls`    | List files and folders  | `ls -l` → detailed view (permissions, owner, date) |
+| `cd`    | Change directory        | `cd Documents` → go to Documents folder            |
+| `cd ..` | Go one directory up     | From `/home/salman/Documents` → `/home/salman`     |
+| `clear` | Clear the terminal      | Removes previous outputs                           |
+
+📘 Scenario:
+You’re inside /home/salman/scripts but want to move to /home/salman/projects/security.
+
+cd ../projects/security
+pwd
+
+
+Output → /home/salman/projects/security
+
+📁 File Management Commands
+| Command        | Description             | Example                         |
+| -------------- | ----------------------- | ------------------------------- |
+| `touch`        | Create a new empty file | `touch report.txt`              |
+| `mkdir`        | Create a new folder     | `mkdir logs`                    |
+| `cp`           | Copy a file or folder   | `cp report.txt logs/`           |
+| `mv`           | Move or rename a file   | `mv old.txt new.txt`            |
+| `rm`           | Remove a file           | `rm temp.txt`                   |
+| `rmdir`        | Remove empty folder     | `rmdir logs`                    |
+| `cat`          | Display file contents   | `cat report.txt`                |
+| `nano` or `vi` | Edit file content       | `nano script.sh`                |
+| `find`         | Search for files        | `find /home -name "report.txt"` |
+
+📘 Scenario:
+You want to create a folder for your cybersecurity logs and move all .log files into it.
+
+mkdir security_logs
+mv *.log security_logs/
+ls security_logs
+
+
+You’ll now see all log files neatly organized.
+
+c. Understand Linux file permissions and users.
+
+Answer: 
+1. Understanding Permissions
+Each file in Linux has three types of permissions for three categories of users:
+| Category     | Description                |
+| ------------ | -------------------------- |
+| `Owner (u)`  | The user who owns the file |
+| `Group (g)`  | Users in the same group    |
+| `Others (o)` | Everyone else              |
+
+2. Permission Types
+| Symbol | Meaning | Example                          |
+| ------ | ------- | -------------------------------- |
+| `r`    | Read    | View the file                    |
+| `w`    | Write   | Edit or delete the file          |
+| `x`    | Execute | Run the file as a program/script |
+
+Example output from ls -l:
+
+-rwxr-xr--
+
+
+Meaning:
+
+Owner: read, write, execute (rwx)
+
+Group: read, execute (r-x)
+
+Others: read only (r--)
+
+3. Changing Permissions and Ownership
+
+| Command | Description        | Example                      |
+| ------- | ------------------ | ---------------------------- |
+| `chmod` | Change permissions | `chmod 755 script.sh`        |
+| `chown` | Change file owner  | `chown root:root secure.txt` |
+
+🔸 Example Explanation:
+
+chmod 755 script.sh means:
+
+Owner → full access (7 = rwx)
+
+Group → read + execute (5 = r-x)
+
+Others → read + execute (5 = r-x)
+
+🔒 Scenario:
+A system admin wants only root to modify a security configuration file:
+
+chown root:root firewall.conf
+chmod 600 firewall.conf
+
+
+Now only the root user can read/write it — others can’t even view it.
+
+d. Practice simple command-line tasks.
+
+Answer: 
+🧩 Task 1: Navigation & File Creation
+cd /home/user
+mkdir cybersecurity
+cd cybersecurity
+touch notes.txt
+echo "Linux is awesome!" > notes.txt
+cat notes.txt
+🧩 Task 2: Permissions
+ls -l notes.txt
+chmod 700 notes.txt
+ls -l notes.txt
+
+🧩 Task 3: Searching Files
+find /home/user -name "*.txt"
+🧩 Task 4: Simulate a Cybersecurity Scenario
+cd /downloads
+ls -l malware.sh
+chmod 000 malware.sh
+
