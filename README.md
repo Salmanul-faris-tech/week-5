@@ -1,1 +1,1 @@
-An Operating System (OS) is system software that acts as an interface between the user and the computer hardware. It manages all hardware and software resources, allowing programs to run and users to interact with the system efficiently.
+
