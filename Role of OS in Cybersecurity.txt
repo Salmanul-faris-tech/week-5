@@ -1,0 +1,101 @@
+Role of OS in Cybersecurity
+
+a. Write how the OS helps protect data and system resources.
+
+Answer: The OS protects data and system resources (CPU, memory, files, devices) through:
+
+1. Access Control
+
+The OS ensures that only authorized users can access files or applications.
+
+Each file, process, and system component is given a permission level.
+
+Example: Only the “admin” can install software; normal users can’t.
+
+📘 Scenario:
+In Windows, if a normal user tries to install a driver or delete a system file, a UAC (User Account Control) prompt appears asking for admin permission.
+This prevents malware from silently modifying critical files.
+
+2. Process Isolation
+
+Each running program (process) operates in its own memory space, so one app can’t read or tamper with another.
+
+This prevents malware from spreading or accessing sensitive data of other apps.
+
+📘 Scenario:
+A browser (like Chrome) runs each tab in a separate sandbox, so if one tab gets infected, others remain safe.
+
+3. Encryption
+
+The OS offers built-in tools to encrypt data stored on the device.
+
+Encryption makes data unreadable to hackers without the correct key.
+
+📘 Example:
+
+Windows BitLocker, macOS FileVault, Linux LUKS — encrypt hard drives to protect data from theft.
+
+4. System Integrity
+
+The OS verifies that its own files and settings haven’t been tampered with.
+
+Example: Secure Boot in Windows ensures the OS starts only with trusted software.
+
+📘 Scenario:
+When malware tries to replace a system boot file, Secure Boot blocks it and prevents startup with corrupted code.
+
+b. Identify OS security features like authentication, permissions, and logging.
+
+Answer: 1. Authentication
+
+Confirms the identity of a user before granting access.
+
+Common types:
+
+Password-based login
+
+Biometric login (fingerprint, face ID)
+
+Two-Factor Authentication (2FA)
+
+📘 Example:
+When logging into Windows or Linux, the OS verifies your username & password before giving access.
+
+2. Permissions and Authorization
+
+After authentication, the OS decides what actions the user can perform.
+
+It defines read, write, and execute permissions for files or programs.
+
+📘 Example:
+Only the file owner can read, write, and execute the file — protecting it from others.
+
+3. Logging and Auditing
+
+The OS keeps security logs of user actions, system events, and access attempts.
+
+These logs are vital for detecting and investigating suspicious activity.
+
+📘 Example:
+
+Windows Event Viewer logs failed logins.
+
+Linux syslog and /var/log/auth.log show who logged in and when.
+
+📘 Scenario:
+If an attacker repeatedly tries wrong passwords, the OS logs it. The admin can detect brute-force attempts from the log files.
+
+c. Give examples of OS security incidents and responses
+
+Answer: Incident : Linux Server Privilege Escalation
+
+A bug in Linux kernel allowed attackers to gain root (admin) access.
+
+🛡️ OS Response:
+
+Linux developers quickly released a patched kernel version.
+
+Administrators used SELinux (Security-Enhanced Linux) to limit what even root users could do.
+
+
+
