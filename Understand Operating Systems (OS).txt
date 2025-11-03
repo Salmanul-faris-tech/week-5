@@ -1,0 +1,71 @@
+Understand Operating Systems (OS)
+
+a. Research: What is an Operating System?
+
+Answer: An Operating System (OS) is system software that acts as an interface between the user and the computer hardware. It manages all hardware and software resources, allowing programs to run and users to interact with the system efficiently.
+
+b. Explain the role of an OS in managing computer hardware and software.
+
+Answer: An OS manages all the main resources of a computer: CPU, memory, storage, and input/output devices.
+
+1. Process Management
+The OS decides which program runs first and for how long.
+Example:
+A programmer opens Chrome, VS Code, and Zoom. The OS divides CPU time among all three so the system doesn’t freeze.
+
+2. Memory Management
+Allocates and frees up RAM for programs.
+Example:
+A developer opens Android Studio and Chrome together — the OS decides how much memory each app gets to prevent crashes.
+
+3. File Management
+An employee saving project files in shared folders — OS manages who can read or write them.
+Example:
+An employee saving project files in shared folders — OS manages who can read or write them.
+
+4. Device Management
+Controls hardware like printers, keyboards, and USB drives.
+Example:
+When the HR team prints employee reports, the OS manages communication between the computer and the printer.
+
+5. User Interface
+Provides GUI (Graphical User Interface) or CLI (Command Line Interface) to interact.
+Example:
+The design team uses macOS Finder to easily browse and edit design files.
+
+c. Describe how an OS contributes to cybersecurity (access control, user
+management, security).
+Answer: 
+The OS plays a major role in protecting company systems and data.
+
+1. Access Control
+Only authorized users can access certain files or systems.
+Example:
+In TCS, only HR staff can access employee salary data stored in protected folders. Windows enforces this via user permissions.
+2. User Management
+Each user has a unique ID, password, and access level.
+Example:
+A system administrator creates separate logins for developers, testers, and admins on Linux servers — limiting what each can do.
+
+3. Security Updates
+Regular patches fix system vulnerabilities.
+Example:
+The IT department installs monthly Windows updates to prevent malware attacks.
+
+4. Firewall and Antivirus Integration
+The OS often includes or supports firewalls and antivirus software.
+Example:
+A corporate laptop runs Windows Defender Firewall to block suspicious network connections.
+
+5. Data Encryption
+The OS can encrypt files to protect confidential data.
+Example:
+macOS FileVault encrypts project files of a software development team, preventing theft if a laptop is lost.
+
+d. List common operating systems (Windows, Linux, macOS).
+
+Answer:
+Windows(windows7, windows8, windows10, windows11)
+Linux(Kali Linux, Arch Linux, Red Hat, Ubuntu etc..)
+MacOs
+
